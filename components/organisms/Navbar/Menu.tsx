@@ -9,14 +9,14 @@ interface MenuProps {
 
 export default function Menu(props: Partial<MenuProps>) {
   const { title, active, href = "/" } = props;
-  const classTItle = cx({
+  const classTitle = cx({
     "nav-link": true,
     active: active,
   });
   return (
     <li className="nav-item my-auto">
       <Link href={href}>
-        <a className={classTItle} aria-current="page">
+        <a className={classTitle} aria-current="page">
           {title}
         </a>
       </Link>
