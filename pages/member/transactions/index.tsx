@@ -1,6 +1,9 @@
+import SideBar from "../../../components/organisms/SideBar";
+
 export default function Transactions() {
   return (
     <section className="transactions overflow-auto">
+      <SideBar activeMenu="transactions" />
       <main className="main-wrapper">
         <div className="ps-lg-0">
           <h2 className="text-4xl fw-bold color-palette-1 mb-30">My Transactions</h2>
