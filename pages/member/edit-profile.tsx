@@ -1,4 +1,4 @@
-import Input from "../../components/atoms/input";
+import Input from "../../components/atoms/Input";
 import SideBar from "../../components/organisms/SideBar";
 
 export default function EditProfile() {
